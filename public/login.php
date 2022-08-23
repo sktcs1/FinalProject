@@ -104,6 +104,7 @@
         <input id="textbox" type="password" name="password" required> <br><br> 
         <input type="hidden" name="token" value="<?=$_SESSION['token']?>">
         <input type="submit" value="Login">
+        <a href='signup.php'> <input type="button" value="Signup" href> </a>
     </form>
 </body>
 </html>

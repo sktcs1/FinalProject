@@ -2,8 +2,8 @@
 
 define('DB_NAME', 'login_db');
 define('DB_USER', 'root');
-define('DB_PASS', '12345678');
-define('DB_HOST', 'localhost');
+define('DB_PASS', '');
+define('DB_HOST', 'localhost:3307');
 
 
 $string = "mysql:host=".DB_HOST.";dbname=".DB_NAME;
